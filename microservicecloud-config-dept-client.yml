@@ -8,7 +8,7 @@ server:
 spring: 
   profiles: dev
   application:
-    name: microservicecloud-dept
+    name: microservicecloud-config-dept-client
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml  #mybatis配置文件所在路径
   type-aliases-package: com.atguigu.springcloud.entites  #entites别名包
@@ -43,7 +43,7 @@ server:
 spring: 
   profiles: test
   application:
-    name: microservicecloud-dept
+    name: microservicecloud-config-dept-client
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml  #mybatis配置文件所在路径
   type-aliases-package: com.atguigu.springcloud.entites  #entites别名包
